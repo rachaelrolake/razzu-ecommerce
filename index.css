@@ -1,29 +1,9 @@
-/* @media(min-width:768px) {
-    .news-input {
-        width: 50%;
-    }
-} */
-
+/*Navbar*/
 .navbar {
     border-bottom: #333 solid 1px;
     padding-left: 15px;
     padding-right: 15px;
 }
-
-.dropdown-menu {
-    border: none;
-    outline: none;
- }
-
- .dropdown-menu .dropdown-item {
-    border: none;
-    outline: none;
- }
-
-.logo h1 {
-    
-}
-
 
 .nav-items {
     color: #333;
@@ -72,7 +52,7 @@ h1 p {
 
 /*fashion brand*/
 
-.contain {
+/* .contain {
     width: 200px;
     height: 150px;
 }
@@ -94,100 +74,52 @@ h1 p {
     height: auto;
     width: 20%;
     margin-top: 6%;
-}
+} */
 
+/*Featured Products*/
 
 .featured {
     margin-top: 150px;
     margin-bottom: 70px;
 }
-/*images */
 
-
-/*img{
-    height: auto;
-    width: 30%;
-    gap: 4px ;
-}*/
-/*.body{
-    background-image: url(pro-img/backa.jpg);
-    background-size: cover;
+.card-title {
+    font-size: 17px;
 }
 
-.hi-slide{
-    position: relative;
-    width: 754px;
-    height: 292px;
-    border-radius: 50px;
-    margin: 115px auto 0s;
-}
 
-.hi-slide .hi-next,
-  .hi-slide .hi-prev{
-    position: absolute;
-    top: 50%;
-    width: 40px;
+
+
+.cartContainer {
+    background-color: rgba(0, 0, 0, 0.377);
     height: 40px;
-    margin-top: -20px;
-    border-radius: 50px;
-    text-align: center;
-    cursor: pointer;
-    background-color: aliceblue;
-    color: black;
-    transition: all 0.8s;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .hi-slide .hi-next:hover,
-  .hi-slide  .hi-prev:hover {
-    opacity: 2;
-    background-color: pink;
-  }
-
-.hi-slide .hi-prev{ left: 59px;}
-
-.hi-slide .hi-prev::before{
-    content: '<';
-}
-
-.hi-slide .hi-next{
-    right: -59px;
-}
-
-.hi-slide .hi-next::before{
-    content: '>';
-}
-
-.hi-slide > ul {
-    list-style: none;
-    position: relative;
-    width: 754px;
-    height: 293px;
-    margin: 0;
-    padding: 0;
-}
-
-.hi-slide > ul > li{
-    overflow: hidden;
+    width: 40px;
+    border-radius: 50%;
     position: absolute;
-    z-index: 0;
-    left: 377px;
-    top: 147px;
-    width: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    border: 3px solid white;
+    bottom: 41px;
+    right: 17px;
     cursor: pointer;
-    background-color: #333;
 }
 
-.hi-slide > ul > li > img{
-    width: 100%;
-    height: 100%;
-    background-position: center;
-}*/
+.cartContainer .shopping-cart-img {
+    width: 28px;
+    margin: 7px 5px;
+}
+
+
+
+/*services*/
+#services  {
+    margin-top: 170px;
+}
+
+.services-text {
+    font-size: 35px;
+}
+
+.container {
+    margin-bottom: 150px;
+}
 
 /*another sticky img 2*/
 .sticky-background3 {
@@ -209,25 +141,21 @@ h1 p {
 
 /*featured product hover*/
 
-.hover-text {
-    color: #333;
-}
 
-.hover-text:hover {
-    color: rgb(211, 120, 166);
-}
 
 /*this css file is for all the items for sale*/
 
 .btn {
-    background-color: rgb(194, 144, 152);
-    border-color: antiquewhite;
+    background-color: black;
+    padding: 7px 35px 7px 35px;
+    border-radius: 15px;
     color: white !important;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
 }
 
 .btn:hover {
-    background-color: #eed3d7;
-    border-color: antiquewhite;
+    /* background-color: #eed3d7;
+    border-color: antiquewhite; */
     color: white;
 }
 
