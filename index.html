@@ -6,99 +6,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  
   <link rel="stylesheet" href="index.css">
-  <title>NavBar</title>
+  <link rel="icon" href="favicon.io.ico">
+  <title>Razuu - Homepage</title>
 </head>
 
 <body>
-  <!--navbar-->
-  <!--this is our nav bar clicking on the logo takes you back to the home page-->
-  <nav class="navbar navbar-expand-lg navbar-light py-3 ">
-    <div class="container-fluid">
-      <div class="logo"><img src="pro-img/dmain.png" alt="logo"></div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse dropend" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-3 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about">About us</a>
-          </li>
-          <a href=""></a>
-          <li class="nav-item dropdown">
-            <a class="hover-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Clothes
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="hover-text dropdown-item" href="gowns.html">Gown</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="hover-text dropdown-item" href="jumpsuit.html">Jumpsuit</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="hover-text dropdown-item" href="top.html">Top</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="hover-text dropdown-item" href="trouser.html">Trouser</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="hover-text dropdown-item" href="jacket.html">Jacket</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="hover-text dropdown-item" href="skirt.html">Skirt</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Accessories
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="hover-text dropdown-item" href="bags.html">Bag</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="hover-text dropdown-item" href="shoe.html">Shoe</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="hover-text dropdown-item" href="sunglasses.html">Sunglasses</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="hover-text dropdown-item" href="earring.html">Earrings</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="hover-text dropdown-item" href="ring.html">Rings</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#questions">Questions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">New arrivals</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" name="search" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
+  <!--navbar-->          
+  <nav class="navbar navbar-expand-lg navbar-light py-3">  
+    <div class="container-fluid d-flex justify-content-between">  
+      <div class="logo ">  
+        <h1>Razuu</h1>  
+      </div>  
+  
+      <!-- Navbar Toggler for mobile -->  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+        <span class="navbar-toggler-icon"></span>  
+      </button>  
+  
+      <!-- Centered Navbar Links -->  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+        <div class="mx-auto">  
+          <ul class="navbar-nav gap-3 mb-3 mb-lg-0">  
+            <li class="nav-item">  
+              <a class="nav-link active" aria-current="page" href="#about">About us</a>  
+            </li>  
+            <li class="nav-item dropdown">  
+              <a class="hover-text nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"  
+                data-bs-toggle="dropdown" aria-expanded="false">  
+                Clothes  
+              </a>  
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">  
+                <li><a class="hover-text dropdown-item" href="gowns.html" style="outline: none;">Gown</a></li>  
+                <li><hr class="dropdown-divider"></li>  
+                <li><a class="hover-text dropdown-item" href="jumpsuit.html" style="outline: none;">Jumpsuit</a></li>  
+                <li><hr class="dropdown-divider"></li>  
+                <li><a class="hover-text dropdown-item" href="top.html" style="outline: none;">Top</a></li>  
+                <li><hr class="dropdown-divider"></li>  
+                <li><a class="hover-text dropdown-item" href="trouser.html" style="outline: none;">Trouser</a></li>  
+                <li><hr class="dropdown-divider"></li>  
+                <li><a class="hover-text dropdown-item" href="jacket.html" style="outline: none;">Jacket</a></li>  
+                <li><hr class="dropdown-divider"></li>  
+                <li><a class="hover-text dropdown-item" href="skirt.html" style="outline: none;">Skirt</a></li>  
+              </ul>  
+            </li>  
+  
+            <li class="nav-item dropdown">  
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"  
+                aria-expanded="false">  
+                Accessories  
+              </a>  
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">  
+                <li><a class="hover-text dropdown-item" href="bags.html" style="outline: none;">Bag</a></li>  
+                <li><hr class="dropdown-divider"></li>  
+                <li><a class="hover-text dropdown-item" href="shoe.html" style="outline: none;">Shoe</a></li>  
+                <li><hr class="dropdown-divider"></li>  
+                <li><a class="hover-text dropdown-item" href="sunglasses.html" style="outline: none;">Sunglasses</a></li>  
+                <li><hr class="dropdown-divider"></li>  
+                <li><a class="hover-text dropdown-item" href="earring.html" style="outline: none;">Earrings</a></li>  
+                <li><hr class="dropdown-divider"></li>  
+                <li><a class="hover-text dropdown-item" href="ring.html" style="outline: none;">Rings</a></li>  
+              </ul>  
+            </li>  
+            <li class="nav-item">  
+              <a class="nav-link" href="#services">Services</a>  
+            </li>  
+            <li class="nav-item">  
+              <a class="nav-link" href="#questions">FAQ</a>  
+            </li>  
+            <li class="nav-item">  
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">New arrivals</a>  
+            </li>  
+          </ul>  
+        </div>  
+        
+        <form class="d-flex">  
+          <div class="input-group">  
+            <input class="form-control" type="search" placeholder="Search" name="search" aria-label="Search">  
+            <button class="btn btn-outline-light" type="submit">Search</button>  
+          </div>  
+        </form>  
+      </div>  
+    </div>  
+  </nav>  
+  
 
 
 
@@ -123,70 +116,9 @@
   </div>
 
 
-  <!--fashion brand/-->
-  <!--this shows us the main brand we're focusing-->
-
-  <div class="container-fashion">
-    <img src="pro-img/dolce.jpg" alt="dng" class="mx-auto d-block">
-
-
-
-    <!--image carousel-->
-    <!--this shows different images of what we sell from different sections-->
-
-    <!--<div class="container-fluid">
-<div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="pro-img/clothg23a.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/clothk6a.jpg" class="d-block w-90" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/clotho13a.jpg" class="d-block w-70" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/cloths18a.jpg" class="d-block w-70" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/clotht9a.jpg" class="d-block w-70" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/clothj8a.jpg" class="d-block w-70" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/bag29.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/shoe30b.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/glass11a.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/ear6a.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="pro-img/ring56a.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>-->
-    <!--since after several attempts the image carousel is still not working very well we'll use this instead due to time-->
-
-    <br>
-    <br>
+   
     <!--featured Products-->
-    <h2 class="hover-text text-center">Featured Products</h2>
+    <h2 class="hover-text text-center featured">Featured Products</h2>
 
     <div class="row row-cols-1 row-clos-md-4 gap-4 justify-content-center">
 
@@ -207,19 +139,19 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="pro-img/clothk3a.jpg" class="d-block w-100" alt="...">
+              <img src="https://res.cloudinary.com/dtz4rslmb/image/upload/v1743676850/clothk3a_vkccfu.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="pro-img/clothk3b.jpg" class="d-block w-100" alt="...">
+              <img src="https://res.cloudinary.com/dtz4rslmb/image/upload/v1743676861/clothk3b_aupgh8.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="pro-img/clothk3c.jpg" class="d-block w-100" alt="...">
+              <img src="https://res.cloudinary.com/dtz4rslmb/image/upload/v1743676888/clothk3c_vsth7s.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="pro-img/clothk3d.jpg" class="d-block w-100" alt="...">
+              <img src="https://res.cloudinary.com/dtz4rslmb/image/upload/v1743676899/clothk3d_f67cqr.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="pro-img/clothk3e.jpg" class="d-block w-100" alt="...">
+              <img src="https://res.cloudinary.com/dtz4rslmb/image/upload/v1743676912/clothk3e_iwdvsj.jpg" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching1"

@@ -5,11 +5,23 @@
 } */
 
 .navbar {
-    background: #FFC0CB;
+    border-bottom: #333 solid 1px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.logo img {
-    height: 90px
+.dropdown-menu {
+    border: none;
+    outline: none;
+ }
+
+ .dropdown-menu .dropdown-item {
+    border: none;
+    outline: none;
+ }
+
+.logo h1 {
+    
 }
 
 
@@ -17,9 +29,6 @@
     color: #333;
 }
 
-.dropdown-menu {
-    background: #FFC0CB;
-}
 
 
 /*about-bar*/
@@ -30,7 +39,7 @@ body {
 }
 
 .sticky-background {
-    background-image: url(pro-img/background.jpg);
+    background-image: url(https://res.cloudinary.com/dtz4rslmb/image/upload/v1743675511/gro_ikricj.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -87,6 +96,11 @@ h1 p {
     margin-top: 6%;
 }
 
+
+.featured {
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
 /*images */
 
 
